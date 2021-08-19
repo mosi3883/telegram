@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #222;
+  font-size: 1.4rem;
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+}
+
+#app {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 7rem minmax(30rem, 3fr) 10fr;
+}
+
+.filters {
+  background-color: #293a4c;
+  color: #8393a3;
+}
+
+.filter__link:link, .filter__link:visited {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6rem 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+.filter__link--active:link, .filter__link--active:visited {
+  color: #5eb5f7;
+  background-color: #17212b;
+}
+.filter__link--small:link, .filter__link--small:visited {
+  padding: 1.5rem 0 1.2rem 0;
+}
+.filter__link--small .filter__icon {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+.filter__icon {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  margin-bottom: 5px;
+}
+
+.chats {
+  background-color: #f6f6f6;
+}
+
+.chats .active {
+  color: #419fd9;
+}
+
+.chat__content {
+  background-color: #74b4e0;
+}
+
+/*# sourceMappingURL=style.css.map */

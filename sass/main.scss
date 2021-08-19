@@ -1,0 +1,15 @@
+@use "base";
+
+@use "filter";
+
+.chats {
+  background-color: #f6f6f6;
+}
+
+.chats .active {
+  color: #419fd9;
+}
+
+.chat__content {
+  background-color: #74b4e0;
+}

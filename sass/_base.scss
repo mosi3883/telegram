@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #222;
+  font-size: 1.4rem;
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+}
+
+#app {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 7rem minmax(30rem, 3fr) 10fr;
+}
